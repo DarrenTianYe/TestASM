@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39a81a74-f354-4445-a52a-90cd1b966783" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_3d12u1q1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_3d12u1q1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_3d12u1q1_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_3l3nm676.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_3l3nm676.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_3l3nm676_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_4d3z2o4a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_4d3z2o4a.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_4d3z2o4a_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_5b2z6b49.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_5b2z6b49.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_5b2z6b49_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_5u2n3h6u.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_5u2n3h6u.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_5u2n3h6u_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_6x591h32.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_6x591h32.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_6x591h32_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_h316b1f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_h316b1f2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/abi_configuration_h316b1f2_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeASMCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build_file_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/bypasss_dlfcn/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/compile_commands.json.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/mini_io/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/symbol_folder_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeASMCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/hello-jnicallback.dir/hello-jnicallback.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_command_hello-jnicallback_armeabi-v7a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_stderr_hello-jnicallback_armeabi-v7a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_stdout_hello-jnicallback_armeabi-v7a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build_file_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/bypass_dlfcn.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/dlfcn_trampoline32.S.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/efl_parser.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn/libbypass_dlfcn.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/cmake_server_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/symbol_folder_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeASMCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/hello-jnicallback.dir/dvm.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/hello-jnicallback.dir/hello-jnicallback.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build_command_hello-jnicallback_arm64-v8a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build_stderr_hello-jnicallback_arm64-v8a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build_stdout_hello-jnicallback_arm64-v8a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build_file_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/bypass_dlfcn.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/dlfcn_trampoline64.S.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/efl_parser.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/bypasss_dlfcn/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/bypasss_dlfcn/libbypass_dlfcn.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/cmake_server_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/compile_commands.json.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/symbol_folder_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeASMCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/hello-jnicallback.dir/hello-jnicallback.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build_command_hello-jnicallback_armeabi-v7a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build_stderr_hello-jnicallback_armeabi-v7a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build_stdout_hello-jnicallback_armeabi-v7a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build_file_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/bypass_dlfcn.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/dlfcn_trampoline32.S.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/efl_parser.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/bypasss_dlfcn/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/bypasss_dlfcn/libbypass_dlfcn.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/cmake_server_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/compile_commands.json.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/symbol_folder_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_1l1z1o65.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_1l1z1o65.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_1l1z1o65_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_1q3d2g5y.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_1q3d2g5y.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_1q3d2g5y_exception.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_1q3d2g5y_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_214q5j1l.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_214q5j1l.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_214q5j1l_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_47341k44.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_47341k44.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_47341k44_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_67cui516.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_67cui516.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/ndk_locator_record_67cui516_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/appcompat/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/constraintlayout/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[99071FFBA00994]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Ia1OQopWquqohHYDcZfkTYL5aJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="TestASM.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39a81a74-f354-4445-a52a-90cd1b966783" name="Default Changelist" comment="" />
+      <created>1670404847301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670404847301</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add code">
+      <created>1670405143538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670405143538</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code" />
+  </component>
+</project>
