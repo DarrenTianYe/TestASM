@@ -1,0 +1,59 @@
+{
+  "buildFiles": [
+    "/Users/darren/work/code/github/TestASM/lib/CMakeLists.txt",
+    "/Users/darren/work/code/github/TestASM/app/src/main/cpp/CMakeLists.txt",
+    "/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "mini_io-Debug-arm64-v8a": {
+      "artifactName": "mini_io",
+      "buildCommandComponents": [
+        "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/arm64-v8a",
+        "mini_io"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/arm64-v8a/mini_io/libmini_io.a",
+      "runtimeFiles": []
+    },
+    "bypass_dlfcn-Debug-arm64-v8a": {
+      "artifactName": "bypass_dlfcn",
+      "buildCommandComponents": [
+        "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/arm64-v8a",
+        "bypass_dlfcn"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/arm64-v8a/bypasss_dlfcn/libbypass_dlfcn.a",
+      "runtimeFiles": []
+    },
+    "hello-jnicallback-Debug-arm64-v8a": {
+      "artifactName": "hello-jnicallback",
+      "buildCommandComponents": [
+        "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/arm64-v8a",
+        "hello-jnicallback"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/darren/work/code/github/TestASM/app/build/intermediates/cmake/debug/obj/arm64-v8a/libhello-jnicallback.so",
+      "runtimeFiles": []
+    }
+  }
+}

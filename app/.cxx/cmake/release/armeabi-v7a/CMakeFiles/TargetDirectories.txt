@@ -1,0 +1,6 @@
+/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/hello-jnicallback.dir
+/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a/bypasss_dlfcn/CMakeFiles/rebuild_cache.dir
+/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a/bypasss_dlfcn/CMakeFiles/edit_cache.dir
+/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a/bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir

@@ -1,0 +1,8 @@
+# ninja log v5
+1	87	1640683827	bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/dlfcn_trampoline64.S.o	de1cdf256ffa3f4e
+1	144	1640683827	bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/bypass_dlfcn.c.o	920bb724e7b4ba10
+2	164	1640683828	bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/efl_parser.c.o	b46dccf2295c4b9d
+1	174	1640683828	CMakeFiles/hello-jnicallback.dir/dvm.c.o	e1a68f67a594342e
+165	255	1640683828	bypasss_dlfcn/libbypass_dlfcn.a	4d86514e2bebb3fb
+0	280	1640683828	CMakeFiles/hello-jnicallback.dir/hello-jnicallback.c.o	c512e85c4fa7ba28
+280	328	1640683828	/Users/darren/work/code/androidProject/HelloJNICallback/app/build/intermediates/cmake/release/obj/arm64-v8a/libhello-jnicallback.so	bb86022664e9857

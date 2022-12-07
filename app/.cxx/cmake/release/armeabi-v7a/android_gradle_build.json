@@ -1,0 +1,53 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/darren/work/code/androidProject/HelloJNICallback/lib/CMakeLists.txt",
+    "/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "bypass_dlfcn-Release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a",
+        "bypass_dlfcn"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "bypass_dlfcn",
+      "output": "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a/bypasss_dlfcn/libbypass_dlfcn.a"
+    },
+    "hello-jnicallback-Release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a",
+        "hello-jnicallback"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "hello-jnicallback",
+      "output": "/Users/darren/work/code/androidProject/HelloJNICallback/app/build/intermediates/cmake/release/obj/armeabi-v7a/libhello-jnicallback.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

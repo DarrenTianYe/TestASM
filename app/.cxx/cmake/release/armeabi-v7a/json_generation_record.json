@@ -1,0 +1,23 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: armeabi-v7a",
+    "file": "/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json\u0027 was up-to-date",
+    "file": "/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/CMakeLists.txt",
+    "tag": "release|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  }
+]

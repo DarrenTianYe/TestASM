@@ -1,2 +1,4 @@
-# TestASM
-Android 汇编 系统调用 实现  syscall 
+1. android 汇编 arm arm64 
+2. open lseek  dlopen arm arm64 asm 汇编实现
+
+

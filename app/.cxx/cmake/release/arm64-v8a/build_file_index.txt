@@ -1,0 +1,2 @@
+/Users/darren/work/code/androidProject/HelloJNICallback/lib/CMakeLists.txt
+/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/CMakeLists.txt
