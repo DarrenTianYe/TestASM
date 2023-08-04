@@ -68,10 +68,39 @@ rule C_STATIC_LIBRARY_LINKER__bypass_dlfcn
 
 
 #############################################
+# Rule for compiling ASM files.
+
+rule ASM_COMPILER__mini_io
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -target armv7-none-linux-androideabi21 -gcc-toolchain /Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building ASM object $out
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__mini_io
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C static library.
+
+rule C_STATIC_LIBRARY_LINKER__mini_io
+  command = $PRE_LINK && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ranlib $TARGET_FILE && $POST_BUILD
+  description = Linking C static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp -B/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a
+  command = /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/darren/work/code/github/TestASM/app/src/main/cpp -B/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a
   description = Re-running CMake...
   generator = 1
 

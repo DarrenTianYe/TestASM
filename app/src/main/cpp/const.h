@@ -6,5 +6,6 @@
 #define HELLOASMTEST_CONST_H
 
 int scan_maps();
+int jni_test( JNIEnv* env, jobject thiz);
 
 #endif //HELLOASMTEST_CONST_H

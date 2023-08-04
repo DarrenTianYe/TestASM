@@ -1,8 +1,14 @@
 [
 {
   "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/arm64-v8a",
-  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dhello_jnicallback_EXPORTS -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/../../../../lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/hello-jnicallback.dir/hello-jnicallback.c.o   -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/hello-jnicallback.c",
-  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/hello-jnicallback.c"
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dhello_jnicallback_EXPORTS -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/../../../../lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/hello-jnicallback.dir/Main_JNI.c.o   -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI.c",
+  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI.c"
+},
+
+{
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dhello_jnicallback_EXPORTS -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/../../../../lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/hello-jnicallback.dir/Main_JNI_arm.c.o   -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c",
+  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c"
 },
 
 {

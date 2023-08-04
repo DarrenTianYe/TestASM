@@ -17,7 +17,8 @@ include_directories(
 
 
 add_library(hello-jnicallback SHARED
-            hello-jnicallback.c
+        Main_JNI_arm64.c
+        Main_JNI_arm.c
         antiTest.c
             )
 

@@ -9,13 +9,13 @@ android {
 //            keyPassword '123456'
 //        }
     }
-    compileSdkVersion 29
+    compileSdkVersion 31
     ndkVersion '22.1.7171670'
 
     defaultConfig {
         applicationId 'com.example.hellojnicallback'
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
         externalNativeBuild {
@@ -26,7 +26,8 @@ android {
 
         ndk {
             //选择要添加的对应cpu类型的.so库。
-            abiFilters  'arm64-v8a'
+            abiFilters  'armeabi-v7a'
+            // abiFilters  'arm64-v8a'
             // 还可以添加 armeabi-v7a
             // 'arm64-v8a', 64 bit ARM architecture,it can use v7 version
             //              unless you are too much concerned about performance
@@ -55,6 +56,10 @@ android {
 
 dependencies {
     //implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation 'me.jahnen.libaums:core:0.9.1'
+//    implementation 'me.jahnen.libaums:httpserver:0.6.2'
+//    implementation 'me.jahnen.libaums:storageprovider:0.6.2'
+
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 }

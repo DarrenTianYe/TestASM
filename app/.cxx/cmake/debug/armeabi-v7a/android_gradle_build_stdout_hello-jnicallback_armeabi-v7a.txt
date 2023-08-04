@@ -1,2 +1,39 @@
-ninja: Entering directory `/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a'
-ninja: no work to do.
+ninja: Entering directory `/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a'
+[1/2] Building C object CMakeFiles/hello-jnicallback.dir/Main_JNI_arm.c.o
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c:77:43: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+    LOGE("sig_handler2,syscall_no:%d \n", syscall_no);
+                                  ~~      ^~~~~~~~~~
+                                  %lu
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c:57:55: note: expanded from macro 'LOGE'
+  ((void)__android_log_print(ANDROID_LOG_ERROR, kTAG, __VA_ARGS__))
+                                                      ^~~~~~~~~~~
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c:78:37: warning: format specifies type 'char *' but the argument has type 'unsigned long' [-Wformat]
+    LOGE("sig_handler2,arg0:%s \n", arg0);
+                            ~~      ^~~~
+                            %lu
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c:57:55: note: expanded from macro 'LOGE'
+  ((void)__android_log_print(ANDROID_LOG_ERROR, kTAG, __VA_ARGS__))
+                                                      ^~~~~~~~~~~
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c:79:37: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+    LOGE("sig_handler2,arg1:%d \n", arg1);
+                            ~~      ^~~~
+                            %lu
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c:57:55: note: expanded from macro 'LOGE'
+  ((void)__android_log_print(ANDROID_LOG_ERROR, kTAG, __VA_ARGS__))
+                                                      ^~~~~~~~~~~
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c:80:37: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+    LOGE("sig_handler2,arg2:%d \n", arg2);
+                            ~~      ^~~~
+                            %lu
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c:57:55: note: expanded from macro 'LOGE'
+  ((void)__android_log_print(ANDROID_LOG_ERROR, kTAG, __VA_ARGS__))
+                                                      ^~~~~~~~~~~
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c:180:38: warning: format specifies type 'long' but the argument has type 'int' [-Wformat]
+    LOGE("sigaction init 8.==%ld\n", ret);
+                             ~~~     ^~~
+                             %d
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c:57:55: note: expanded from macro 'LOGE'
+  ((void)__android_log_print(ANDROID_LOG_ERROR, kTAG, __VA_ARGS__))
+                                                      ^~~~~~~~~~~
+5 warnings generated.
+[2/2] Linking C shared library /Users/darren/work/code/github/TestASM/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so

@@ -1,25 +1,67 @@
 [
 {
-  "directory": "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a",
-  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dhello_jnicallback_EXPORTS -I/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/../../../../lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/hello-jnicallback.dir/hello-jnicallback.c.o   -c /Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/hello-jnicallback.c",
-  "file": "/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/hello-jnicallback.c"
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dhello_jnicallback_EXPORTS -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/../../../../lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/hello-jnicallback.dir/Main_JNI_arm64.c.o   -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm64.c",
+  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm64.c"
 },
 
 {
-  "directory": "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a",
-  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -target armv7-none-linux-androideabi21 -gcc-toolchain /Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/darren/work/code/androidProject/HelloJNICallback/lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/dlfcn_trampoline32.S.o -c /Users/darren/work/code/androidProject/HelloJNICallback/lib/dlfcn_trampoline32.S",
-  "file": "/Users/darren/work/code/androidProject/HelloJNICallback/lib/dlfcn_trampoline32.S"
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dhello_jnicallback_EXPORTS -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/../../../../lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/hello-jnicallback.dir/Main_JNI_arm.c.o   -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c",
+  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c"
 },
 
 {
-  "directory": "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a",
-  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/darren/work/code/androidProject/HelloJNICallback/lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/bypass_dlfcn.c.o   -c /Users/darren/work/code/androidProject/HelloJNICallback/lib/bypass_dlfcn.c",
-  "file": "/Users/darren/work/code/androidProject/HelloJNICallback/lib/bypass_dlfcn.c"
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dhello_jnicallback_EXPORTS -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/../../../../lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/hello-jnicallback.dir/antiTest.c.o   -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/antiTest.c",
+  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/antiTest.c"
 },
 
 {
-  "directory": "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a",
-  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/darren/work/code/androidProject/HelloJNICallback/lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/efl_parser.c.o   -c /Users/darren/work/code/androidProject/HelloJNICallback/lib/efl_parser.c",
-  "file": "/Users/darren/work/code/androidProject/HelloJNICallback/lib/efl_parser.c"
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -target armv7-none-linux-androideabi21 -gcc-toolchain /Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/darren/work/code/github/TestASM/lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/dlfcn_trampoline32.S.o -c /Users/darren/work/code/github/TestASM/lib/dlfcn_trampoline32.S",
+  "file": "/Users/darren/work/code/github/TestASM/lib/dlfcn_trampoline32.S"
+},
+
+{
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/darren/work/code/github/TestASM/lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/bypass_dlfcn.c.o   -c /Users/darren/work/code/github/TestASM/lib/bypass_dlfcn.c",
+  "file": "/Users/darren/work/code/github/TestASM/lib/bypass_dlfcn.c"
+},
+
+{
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/darren/work/code/github/TestASM/lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/efl_parser.c.o   -c /Users/darren/work/code/github/TestASM/lib/efl_parser.c",
+  "file": "/Users/darren/work/code/github/TestASM/lib/efl_parser.c"
+},
+
+{
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -fvisibility=hidden   -o mini_io/CMakeFiles/mini_io.dir/_open.c.o   -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/_open.c",
+  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/_open.c"
+},
+
+{
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -fvisibility=hidden   -o mini_io/CMakeFiles/mini_io.dir/_set_errno.c.o   -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/_set_errno.c",
+  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/_set_errno.c"
+},
+
+{
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -fvisibility=hidden   -o mini_io/CMakeFiles/mini_io.dir/_arm_on_x86.c.o   -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/_arm_on_x86.c",
+  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/_arm_on_x86.c"
+},
+
+{
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -fvisibility=hidden   -o mini_io/CMakeFiles/mini_io.dir/syscall/private/common.c.o   -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/syscall/private/common.c",
+  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/syscall/private/common.c"
+},
+
+{
+  "directory": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -target armv7-none-linux-androideabi21 -gcc-toolchain /Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/darren/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o mini_io/CMakeFiles/mini_io.dir/syscall/armeabi-v7a.S.o -c /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/syscall/armeabi-v7a.S",
+  "file": "/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/syscall/armeabi-v7a.S"
 }
 ]

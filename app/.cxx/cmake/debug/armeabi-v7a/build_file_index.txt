@@ -1,2 +1,3 @@
-/Users/darren/work/code/androidProject/HelloJNICallback/lib/CMakeLists.txt
-/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/CMakeLists.txt
+/Users/darren/work/code/github/TestASM/lib/CMakeLists.txt
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/CMakeLists.txt
+/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/CMakeLists.txt

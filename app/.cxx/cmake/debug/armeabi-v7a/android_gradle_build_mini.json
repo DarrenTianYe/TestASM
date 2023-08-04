@@ -1,20 +1,21 @@
 {
   "buildFiles": [
-    "/Users/darren/work/code/androidProject/HelloJNICallback/lib/CMakeLists.txt",
-    "/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/CMakeLists.txt"
+    "/Users/darren/work/code/github/TestASM/lib/CMakeLists.txt",
+    "/Users/darren/work/code/github/TestASM/app/src/main/cpp/CMakeLists.txt",
+    "/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
       "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
       "-C",
-      "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a",
+      "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
     "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
     "-C",
-    "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a",
+    "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
@@ -23,11 +24,23 @@
       "buildCommandComponents": [
         "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a",
+        "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
         "bypass_dlfcn"
       ],
       "abi": "armeabi-v7a",
-      "output": "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn/libbypass_dlfcn.a",
+      "output": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn/libbypass_dlfcn.a",
+      "runtimeFiles": []
+    },
+    "mini_io-Debug-armeabi-v7a": {
+      "artifactName": "mini_io",
+      "buildCommandComponents": [
+        "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
+        "mini_io"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a/mini_io/libmini_io.a",
       "runtimeFiles": []
     },
     "hello-jnicallback-Debug-armeabi-v7a": {
@@ -35,11 +48,11 @@
       "buildCommandComponents": [
         "/Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a",
+        "/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a",
         "hello-jnicallback"
       ],
       "abi": "armeabi-v7a",
-      "output": "/Users/darren/work/code/androidProject/HelloJNICallback/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so",
+      "output": "/Users/darren/work/code/github/TestASM/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so",
       "runtimeFiles": []
     }
   }

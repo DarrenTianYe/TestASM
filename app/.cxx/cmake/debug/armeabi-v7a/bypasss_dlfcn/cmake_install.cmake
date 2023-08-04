@@ -1,4 +1,4 @@
-# Install script for directory: /Users/darren/work/code/androidProject/HelloJNICallback/lib
+# Install script for directory: /Users/darren/work/code/github/TestASM/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

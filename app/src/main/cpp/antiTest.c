@@ -15,12 +15,12 @@
     char maps[] = "/proc/self/maps";
     int fd = sys_open(maps, O_RDONLY, 0);
     if (fd < 0) {
-        LOGE("cannot open %s", maps);
+        LOGE("cannot sys_open>>>> %s, %d, %s", maps, errno, strerror(errno));
         return -1;
     }
     fp = fdopen(fd, "r");
     if (fp == NULL) {
-        LOGE("cannot open %s", maps);
+        LOGE("cannot fopen>>>> %s, %d, %s", maps, errno, strerror(errno));
         close(fd);
         return -1;
     }
@@ -32,9 +32,10 @@
             strstr(line, " /system_ext/") != NULL ||
             strstr(line, " dkplugin") != NULL){
 
-            LOGE("fgets: %s", line);
+
         }
     }
+    LOGE("fgets: %s", line);
     fclose(fp);
     close(fd);
     return 0;

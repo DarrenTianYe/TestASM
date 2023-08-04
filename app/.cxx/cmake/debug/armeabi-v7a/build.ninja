@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp -B/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a
+  COMMAND = cd /Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/darren/work/code/github/TestASM/app/src/main/cpp -B/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -44,7 +44,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -55,12 +55,26 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 #############################################
 # Order-only phony target for hello-jnicallback
 
-build cmake_object_order_depends_target_hello-jnicallback: phony || cmake_object_order_depends_target_bypass_dlfcn
-build CMakeFiles/hello-jnicallback.dir/hello-jnicallback.c.o: C_COMPILER__hello-jnicallback /Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/hello-jnicallback.c || cmake_object_order_depends_target_hello-jnicallback
+build cmake_object_order_depends_target_hello-jnicallback: phony || cmake_object_order_depends_target_bypass_dlfcn cmake_object_order_depends_target_mini_io
+build CMakeFiles/hello-jnicallback.dir/Main_JNI_arm64.c.o: C_COMPILER__hello-jnicallback /Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm64.c || cmake_object_order_depends_target_hello-jnicallback
   DEFINES = -Dhello_jnicallback_EXPORTS
-  DEP_FILE = CMakeFiles/hello-jnicallback.dir/hello-jnicallback.c.o.d
+  DEP_FILE = CMakeFiles/hello-jnicallback.dir/Main_JNI_arm64.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/../../../../lib/include
+  INCLUDES = -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/../../../../lib/include
+  OBJECT_DIR = CMakeFiles/hello-jnicallback.dir
+  OBJECT_FILE_DIR = CMakeFiles/hello-jnicallback.dir
+build CMakeFiles/hello-jnicallback.dir/Main_JNI_arm.c.o: C_COMPILER__hello-jnicallback /Users/darren/work/code/github/TestASM/app/src/main/cpp/Main_JNI_arm.c || cmake_object_order_depends_target_hello-jnicallback
+  DEFINES = -Dhello_jnicallback_EXPORTS
+  DEP_FILE = CMakeFiles/hello-jnicallback.dir/Main_JNI_arm.c.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/../../../../lib/include
+  OBJECT_DIR = CMakeFiles/hello-jnicallback.dir
+  OBJECT_FILE_DIR = CMakeFiles/hello-jnicallback.dir
+build CMakeFiles/hello-jnicallback.dir/antiTest.c.o: C_COMPILER__hello-jnicallback /Users/darren/work/code/github/TestASM/app/src/main/cpp/antiTest.c || cmake_object_order_depends_target_hello-jnicallback
+  DEFINES = -Dhello_jnicallback_EXPORTS
+  DEP_FILE = CMakeFiles/hello-jnicallback.dir/antiTest.c.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io -I/Users/darren/work/code/github/TestASM/app/src/main/cpp/../../../../lib/include
   OBJECT_DIR = CMakeFiles/hello-jnicallback.dir
   OBJECT_FILE_DIR = CMakeFiles/hello-jnicallback.dir
 
@@ -69,22 +83,22 @@ build CMakeFiles/hello-jnicallback.dir/hello-jnicallback.c.o: C_COMPILER__hello-
 
 
 #############################################
-# Link the shared library /Users/darren/work/code/androidProject/HelloJNICallback/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so
+# Link the shared library /Users/darren/work/code/github/TestASM/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so
 
-build /Users/darren/work/code/androidProject/HelloJNICallback/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so: C_SHARED_LIBRARY_LINKER__hello-jnicallback CMakeFiles/hello-jnicallback.dir/hello-jnicallback.c.o | bypasss_dlfcn/libbypass_dlfcn.a || bypasss_dlfcn/libbypass_dlfcn.a
+build /Users/darren/work/code/github/TestASM/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so: C_SHARED_LIBRARY_LINKER__hello-jnicallback CMakeFiles/hello-jnicallback.dir/Main_JNI_arm64.c.o CMakeFiles/hello-jnicallback.dir/Main_JNI_arm.c.o CMakeFiles/hello-jnicallback.dir/antiTest.c.o | bypasss_dlfcn/libbypass_dlfcn.a mini_io/libmini_io.a || bypasss_dlfcn/libbypass_dlfcn.a mini_io/libmini_io.a
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments
-  LINK_LIBRARIES = -landroid bypasss_dlfcn/libbypass_dlfcn.a -llog -latomic -lm
+  LINK_LIBRARIES = -landroid bypasss_dlfcn/libbypass_dlfcn.a mini_io/libmini_io.a -llog -latomic -lm
   OBJECT_DIR = CMakeFiles/hello-jnicallback.dir
   POST_BUILD = :
   PRE_LINK = :
   SONAME = libhello-jnicallback.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = /Users/darren/work/code/androidProject/HelloJNICallback/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so
+  TARGET_FILE = /Users/darren/work/code/github/TestASM/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so
   TARGET_PDB = hello-jnicallback.so.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/CMakeLists.txt
+# /Users/darren/work/code/github/TestASM/app/src/main/cpp/CMakeLists.txt
 # =============================================================================
 
 
@@ -92,7 +106,7 @@ build /Users/darren/work/code/androidProject/HelloJNICallback/app/build/intermed
 # Utility command for rebuild_cache
 
 build bypasss_dlfcn/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp -B/Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a
+  COMMAND = cd /Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/darren/work/code/github/TestASM/app/src/main/cpp -B/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -102,7 +116,7 @@ build bypasss_dlfcn/rebuild_cache: phony bypasss_dlfcn/CMakeFiles/rebuild_cache.
 # Utility command for edit_cache
 
 build bypasss_dlfcn/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build bypasss_dlfcn/edit_cache: phony bypasss_dlfcn/CMakeFiles/edit_cache.util
@@ -114,22 +128,22 @@ build bypasss_dlfcn/edit_cache: phony bypasss_dlfcn/CMakeFiles/edit_cache.util
 # Order-only phony target for bypass_dlfcn
 
 build cmake_object_order_depends_target_bypass_dlfcn: phony
-build bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/dlfcn_trampoline32.S.o: ASM_COMPILER__bypass_dlfcn /Users/darren/work/code/androidProject/HelloJNICallback/lib/dlfcn_trampoline32.S || cmake_object_order_depends_target_bypass_dlfcn
+build bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/dlfcn_trampoline32.S.o: ASM_COMPILER__bypass_dlfcn /Users/darren/work/code/github/TestASM/lib/dlfcn_trampoline32.S || cmake_object_order_depends_target_bypass_dlfcn
   DEP_FILE = bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/dlfcn_trampoline32.S.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/darren/work/code/androidProject/HelloJNICallback/lib/include
+  INCLUDES = -I/Users/darren/work/code/github/TestASM/lib/include
   OBJECT_DIR = bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir
   OBJECT_FILE_DIR = bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir
-build bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/bypass_dlfcn.c.o: C_COMPILER__bypass_dlfcn /Users/darren/work/code/androidProject/HelloJNICallback/lib/bypass_dlfcn.c || cmake_object_order_depends_target_bypass_dlfcn
+build bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/bypass_dlfcn.c.o: C_COMPILER__bypass_dlfcn /Users/darren/work/code/github/TestASM/lib/bypass_dlfcn.c || cmake_object_order_depends_target_bypass_dlfcn
   DEP_FILE = bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/bypass_dlfcn.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/darren/work/code/androidProject/HelloJNICallback/lib/include
+  INCLUDES = -I/Users/darren/work/code/github/TestASM/lib/include
   OBJECT_DIR = bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir
   OBJECT_FILE_DIR = bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir
-build bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/efl_parser.c.o: C_COMPILER__bypass_dlfcn /Users/darren/work/code/androidProject/HelloJNICallback/lib/efl_parser.c || cmake_object_order_depends_target_bypass_dlfcn
+build bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/efl_parser.c.o: C_COMPILER__bypass_dlfcn /Users/darren/work/code/github/TestASM/lib/efl_parser.c || cmake_object_order_depends_target_bypass_dlfcn
   DEP_FILE = bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir/efl_parser.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/Users/darren/work/code/androidProject/HelloJNICallback/lib/include
+  INCLUDES = -I/Users/darren/work/code/github/TestASM/lib/include
   OBJECT_DIR = bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir
   OBJECT_FILE_DIR = bypasss_dlfcn/CMakeFiles/bypass_dlfcn.dir
 
@@ -148,12 +162,86 @@ build bypasss_dlfcn/libbypass_dlfcn.a: C_STATIC_LIBRARY_LINKER__bypass_dlfcn byp
   TARGET_FILE = bypasss_dlfcn/libbypass_dlfcn.a
   TARGET_PDB = bypass_dlfcn.a.dbg
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/darren/work/code/github/TestASM/app/src/main/cpp/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build mini_io/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a/mini_io && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/darren/work/code/github/TestASM/app/src/main/cpp -B/Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+build mini_io/rebuild_cache: phony mini_io/CMakeFiles/rebuild_cache.util
+
+#############################################
+# Utility command for edit_cache
+
+build mini_io/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a/mini_io && /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+build mini_io/edit_cache: phony mini_io/CMakeFiles/edit_cache.util
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target mini_io
+
+
+#############################################
+# Order-only phony target for mini_io
+
+build cmake_object_order_depends_target_mini_io: phony
+build mini_io/CMakeFiles/mini_io.dir/_open.c.o: C_COMPILER__mini_io /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/_open.c || cmake_object_order_depends_target_mini_io
+  DEP_FILE = mini_io/CMakeFiles/mini_io.dir/_open.c.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -fvisibility=hidden
+  OBJECT_DIR = mini_io/CMakeFiles/mini_io.dir
+  OBJECT_FILE_DIR = mini_io/CMakeFiles/mini_io.dir
+build mini_io/CMakeFiles/mini_io.dir/_set_errno.c.o: C_COMPILER__mini_io /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/_set_errno.c || cmake_object_order_depends_target_mini_io
+  DEP_FILE = mini_io/CMakeFiles/mini_io.dir/_set_errno.c.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -fvisibility=hidden
+  OBJECT_DIR = mini_io/CMakeFiles/mini_io.dir
+  OBJECT_FILE_DIR = mini_io/CMakeFiles/mini_io.dir
+build mini_io/CMakeFiles/mini_io.dir/_arm_on_x86.c.o: C_COMPILER__mini_io /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/_arm_on_x86.c || cmake_object_order_depends_target_mini_io
+  DEP_FILE = mini_io/CMakeFiles/mini_io.dir/_arm_on_x86.c.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -fvisibility=hidden
+  OBJECT_DIR = mini_io/CMakeFiles/mini_io.dir
+  OBJECT_FILE_DIR = mini_io/CMakeFiles/mini_io.dir
+build mini_io/CMakeFiles/mini_io.dir/syscall/private/common.c.o: C_COMPILER__mini_io /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/syscall/private/common.c || cmake_object_order_depends_target_mini_io
+  DEP_FILE = mini_io/CMakeFiles/mini_io.dir/syscall/private/common.c.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -fvisibility=hidden
+  OBJECT_DIR = mini_io/CMakeFiles/mini_io.dir
+  OBJECT_FILE_DIR = mini_io/CMakeFiles/mini_io.dir/syscall/private
+build mini_io/CMakeFiles/mini_io.dir/syscall/armeabi-v7a.S.o: ASM_COMPILER__mini_io /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/syscall/armeabi-v7a.S || cmake_object_order_depends_target_mini_io
+  DEP_FILE = mini_io/CMakeFiles/mini_io.dir/syscall/armeabi-v7a.S.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = mini_io/CMakeFiles/mini_io.dir
+  OBJECT_FILE_DIR = mini_io/CMakeFiles/mini_io.dir/syscall
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target mini_io
+
+
+#############################################
+# Link the static library mini_io/libmini_io.a
+
+build mini_io/libmini_io.a: C_STATIC_LIBRARY_LINKER__mini_io mini_io/CMakeFiles/mini_io.dir/_open.c.o mini_io/CMakeFiles/mini_io.dir/_set_errno.c.o mini_io/CMakeFiles/mini_io.dir/_arm_on_x86.c.o mini_io/CMakeFiles/mini_io.dir/syscall/private/common.c.o mini_io/CMakeFiles/mini_io.dir/syscall/armeabi-v7a.S.o
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info
+  OBJECT_DIR = mini_io/CMakeFiles/mini_io.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = mini_io/libmini_io.a
+  TARGET_PDB = mini_io.a.dbg
+# =============================================================================
 # Target aliases.
 
 build bypass_dlfcn: phony bypasss_dlfcn/libbypass_dlfcn.a
-build hello-jnicallback: phony /Users/darren/work/code/androidProject/HelloJNICallback/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so
+build hello-jnicallback: phony /Users/darren/work/code/github/TestASM/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so
 build libbypass_dlfcn.a: phony bypasss_dlfcn/libbypass_dlfcn.a
-build libhello-jnicallback.so: phony /Users/darren/work/code/androidProject/HelloJNICallback/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so
+build libhello-jnicallback.so: phony /Users/darren/work/code/github/TestASM/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so
+build libmini_io.a: phony mini_io/libmini_io.a
+build mini_io: phony mini_io/libmini_io.a
 # =============================================================================
 # Folder targets.
 
@@ -161,9 +249,15 @@ build libhello-jnicallback.so: phony /Users/darren/work/code/androidProject/Hell
 # =============================================================================
 
 #############################################
-# Folder: /Users/darren/work/code/androidProject/HelloJNICallback/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn
+# Folder: /Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a/bypasss_dlfcn
 
 build  bypasss_dlfcn/all: phony bypass_dlfcn
+# =============================================================================
+
+#############################################
+# Folder: /Users/darren/work/code/github/TestASM/app/.cxx/cmake/debug/armeabi-v7a/mini_io
+
+build  mini_io/all: phony mini_io
 # =============================================================================
 # Built-in targets
 
@@ -171,7 +265,7 @@ build  bypasss_dlfcn/all: phony bypass_dlfcn
 #############################################
 # The main all target.
 
-build all: phony /Users/darren/work/code/androidProject/HelloJNICallback/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so bypasss_dlfcn/libbypass_dlfcn.a
+build all: phony /Users/darren/work/code/github/TestASM/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jnicallback.so bypasss_dlfcn/libbypass_dlfcn.a mini_io/libmini_io.a
 
 #############################################
 # Make the all target the default.
@@ -181,13 +275,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMCompiler.cmake.in /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineASMCompiler.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestASMCompiler.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/compiler_id.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake /Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/CMakeLists.txt /Users/darren/work/code/androidProject/HelloJNICallback/lib/CMakeLists.txt CMakeCache.txt CMakeFiles/3.10.2/CMakeASMCompiler.cmake CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/compiler_id.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake /Users/darren/work/code/github/TestASM/app/src/main/cpp/CMakeLists.txt /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/CMakeLists.txt /Users/darren/work/code/github/TestASM/lib/CMakeLists.txt CMakeCache.txt CMakeFiles/3.10.2/CMakeASMCompiler.cmake CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMCompiler.cmake.in /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineASMCompiler.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestASMCompiler.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/compiler_id.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake /Users/darren/work/code/androidProject/HelloJNICallback/app/src/main/cpp/CMakeLists.txt /Users/darren/work/code/androidProject/HelloJNICallback/lib/CMakeLists.txt CMakeCache.txt CMakeFiles/3.10.2/CMakeASMCompiler.cmake CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake: phony
+build /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake /Users/darren/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/compiler_id.cmake /Users/darren/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake /Users/darren/work/code/github/TestASM/app/src/main/cpp/CMakeLists.txt /Users/darren/work/code/github/TestASM/app/src/main/cpp/mini_io/CMakeLists.txt /Users/darren/work/code/github/TestASM/lib/CMakeLists.txt CMakeCache.txt CMakeFiles/3.10.2/CMakeASMCompiler.cmake CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake: phony
 
 #############################################
 # Clean all the built files.

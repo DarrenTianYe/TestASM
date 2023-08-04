@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         hour = minute = second = 0;
-        ((TextView)findViewById(R.id.hellojniMsg)).setText(stringFromJNI12());
+        //((TextView)findViewById(R.id.hellojniMsg)).setText(stringFromJNI12());
 //        startTicks();
 //
 //        int pid = android.os.Process.myPid();
@@ -276,6 +276,8 @@ public class MainActivity extends AppCompatActivity {
         }
         return null;
     }
+
+
 
 
     static {
