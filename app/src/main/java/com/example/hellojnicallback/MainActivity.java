@@ -284,7 +284,6 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("hello-jnicallback");
     }
     public native  String stringFromJNI12();
-    public static  native  String staticstringFromJNI();
     public native void startTicks();
     public native void StopTicks();
     //public static String getNativeVersion(String tmp);

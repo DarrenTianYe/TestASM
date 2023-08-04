@@ -8,8 +8,9 @@
 #include <sys/socket.h>
 #include "logging.h"
 #include "linux_syscall_support.h"
+#include "_mini_io.h"
 
- int scan_maps() {
+int scan_maps() {
     FILE *fp = NULL;
     char line[PATH_MAX];
     char maps[] = "/proc/self/maps";
@@ -31,12 +32,10 @@
             strstr(line, " /product/") != NULL ||
             strstr(line, " /system_ext/") != NULL ||
             strstr(line, " dkplugin") != NULL){
-
-
         }
     }
-    LOGE("fgets: %s", line);
+    LOGE("fgets44444: %s", line);
     fclose(fp);
-    close(fd);
+    _close(fd);
     return 0;
 }
